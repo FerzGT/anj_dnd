@@ -1,13 +1,11 @@
 export default class Card {
     constructor(column) {
       this.container = document.querySelector('.container');
-  
       this.column = column;// здесь будет класс колонки
       this.id = null;// генерится внутри
       this.card = null;// тело карточки
       this.text = null;// текст в ней по селектору
       this.btn = null;// ее крестик по селектору
-  
       this.idReserv = [];
     }
   
